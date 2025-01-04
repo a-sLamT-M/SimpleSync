@@ -6,7 +6,7 @@ This is a simple application to sync files from client to server via ssh.
 
 ### Windows (Powershell)
 ```Powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/a-sLamT-M/SimpleSync/master/install.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/a-sLamT-M/SimpleSync/master/scripts/install.ps1'))
 ```
 
 ## Usage

@@ -3,7 +3,7 @@ $githubUser = "a-sLamT-M"
 $repo = "SimpleSync"
 $release = "latest"
 $installDir = "$env:ProgramFiles\$appName"
-$zipUrl = "https://github.com/$githubUser/$repo/releases/download/$release/$appName-v1.0.0-win-x64.zip"
+$zipUrl = "https://github.com/$githubUser/$repo/releases/download/$release/$appName-v1.1.0-win-x64.zip"
 $zipFile = "$env:TEMP\$appName.zip"
 
 New-Item -ItemType Directory -Force -Path $installDir | Out-Null

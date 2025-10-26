@@ -1,6 +1,7 @@
 # Symple Sync
 
-This is a simple application to sync files from client to server via ssh.
+This is a **Minimalism** application to sync files from client to server via ssh and sftp.
+
 
 ## Installation
 

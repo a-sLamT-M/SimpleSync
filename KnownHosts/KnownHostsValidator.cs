@@ -36,7 +36,7 @@ public class KnownHostsValidator
             return this;
         };
     }
-    public Try<KnownHostsValidator> Push(string host, string encryptMethod, byte[] key)
+    public Try<KnownHostsValidator> AddNew(string host, string encryptMethod, byte[] key)
     {
         return () => {
             var line = $"{host} {encryptMethod} {Convert.ToBase64String(key)}";

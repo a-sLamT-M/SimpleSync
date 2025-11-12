@@ -1,7 +1,7 @@
 ﻿$appName = "SimpleSync"
 $githubUser = "a-sLamT-M"
 $repo = "SimpleSync"
-$release = "v1.1.0"
+$release = "v.1.1.0"
 $installDir = "$env:ProgramFiles\$appName"
 $zipUrl = "https://github.com/$githubUser/$repo/releases/download/$release/$appName-v1.1.0-win-x64.zip"
 $zipFile = "$env:TEMP\$appName.zip"

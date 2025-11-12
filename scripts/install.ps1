@@ -1,4 +1,6 @@
-﻿$zipUrl = "https://github.com/a-sLamT-M/SimpleSync/releases/download/v.1.1.0/SimpleSync-v1.1.0-win-x64.zip"
+﻿
+$installDir = "$env:ProgramFiles\$appName"
+$zipUrl = "https://github.com/a-sLamT-M/SimpleSync/releases/download/v.1.1.0/SimpleSync-v1.1.0-win-x64.zip"
 $zipFile = "$env:TEMP\$appName.zip"
 
 New-Item -ItemType Directory -Force -Path $installDir | Out-Null
